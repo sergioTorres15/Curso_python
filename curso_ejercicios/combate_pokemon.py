@@ -1,4 +1,4 @@
-pokemon_elegido = input("contra que pokemons quieres luchar? (squirtle / charmander / balbasuer)")
+pokemon_elegido = input("contra que pokemons quieres luchar? (squirtle / charmander / balbasuer) : ")
 
 vida_pikachu = 100
 vida_enemigo = 0

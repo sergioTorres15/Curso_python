@@ -1,5 +1,5 @@
 import pickle
-import sleep
+from curso_ejercicios import sleep
 from tkinter import *
 from tkinter import ttk
 from contact import Contact
@@ -159,7 +159,7 @@ def main():
 
 
 
-    frame_add_contact = Frame(root, width="50", height=50, bg="pink")
+    frame_add_contact = Frame(root, width="50", height=50, bg="red")
     frame_add_contact.grid()
 
 

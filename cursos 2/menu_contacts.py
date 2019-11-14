@@ -1,6 +1,6 @@
 import pickle
 
-from time import sleep
+from curso_ejercicios.time import sleep
 
 ACTION_ADD_CONTACT = 1
 ACTION_REMOVE_CONTACT = 2
@@ -65,12 +65,7 @@ def remove_contact(contacts):
     elif len(indices) < 0:
         print("no se ha encontrado ninguno")
 
-
-
-
     sleep(2)
-
-
 
 def find_contact(contacts):
     print("\n\nBuscar contacto\n")
@@ -106,7 +101,7 @@ def find_contact(contacts):
         volver = input("\nquieres volver a intentar [si] / volver al menu [no] : ")
         if volver == "si":
             find_contact(contacts)
-        return
+    return
 
     print("\nInformación sobre {}\n".format(found_contacts[contact_index]["name"]))
     print("Nombre: {name}, Telefono: {phone}, Email: {email}\n\n".format(**found_contacts[contact_index]))

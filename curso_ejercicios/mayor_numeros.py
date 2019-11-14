@@ -3,7 +3,7 @@ numeros_usuarios = []
 numero_de_usuario = ""
 
 
-while len(numeros_usuarios) < 10:
+while len(numeros_usuarios) < 3:
     while not numero_de_usuario.isdigit():
         numero_de_usuario = input("Dime un numero: ")
     numeros_usuarios.append(int(numero_de_usuario))
